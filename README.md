@@ -4,7 +4,7 @@ Foreman related scripts for installation and removal and other stuff
 To be used for Linux - Centos/Redhat 7 platform.
 
 Username : admin
-Password has been reset to "defaultfoerman", please change it once you log in
+Password has been reset to "defaultforeman", please change it once you log in
 
 --------------------------------------------------------------------------------------------------
 More details about the error/Log/Debug information could be found on below files
