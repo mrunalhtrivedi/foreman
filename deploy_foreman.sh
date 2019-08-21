@@ -25,6 +25,11 @@ sudo yum -y install foreman-installer
 sudo foreman-installer
 
 echo "##############   Firewall Configuration  #######################################################################"
+
+echo "##############   Enabling Firewall #############################################################################"
+sudo systemctl enable firewalld
+sudo systemctl start firewalld
+sudo systemctl status firewalld
 sudo firewall-cmd --permanent --add-port=53/tcp
 sudo firewall-cmd --permanent --add-port=67-69/udp
 sudo firewall-cmd --permanent --add-port=80/tcp
