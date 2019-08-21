@@ -12,9 +12,6 @@ sudo yum clean metadata
 echo "##############   Installing Git/ZSH/TMUX #######################################################################"
 sudo yum -y install git zsh tmux
 
-echo "##############   Installing Rubygem hooks packages #############################################################"
-sudo yum -y install tfm-rubygem-foreman_hooks tfm-rubygem-foreman_hooks-doc
-
 echo "##############   Installing Puppet & NTP module ################################################################"
 sudo yum -y install https://yum.puppet.com/puppet6-release-el-7.noarch.rpm
 sudo puppet module install puppetlabs/ntp
@@ -24,7 +21,7 @@ sudo yum -y install http://dl.fedoraproject.org/pub/epel/epel-release-latest-7.n
 
 echo "##############   Installing Foreman Insatller/foreman-vmware ###################################################"
 sudo yum -y install https://yum.theforeman.org/releases/1.22/el7/x86_64/foreman-release.rpm
-sudo yum -y install foreman-installer foreman-vmware
+sudo yum -y install foreman-installer
 sudo foreman-installer
 
 echo "##############   Firewall Configuration  #######################################################################"
