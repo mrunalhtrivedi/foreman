@@ -56,4 +56,4 @@ systemctl status puppetserver.service
 systemctl status puppet.service
 
 echo "##############  Testing Puppet agent ###########################################################################"
-puppet agent --test
+sudo /opt/puppetlabs/puppet/bin/puppet agent --test
