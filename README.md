@@ -1,4 +1,4 @@
-# foreman
+# foreman 1.22 release
 Foreman related scripts for installation and removal and other stuff
 
 To be used for Linux - Centos/Redhat 7 platform.
