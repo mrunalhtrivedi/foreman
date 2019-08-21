@@ -7,7 +7,7 @@ systemctl status foreman-proxy.service
 systemctl status foreman-tasks.service
 
 echo "############## Removing Foreman ################################################################################"
-sudo yum -y remove --remove-leaves foreman foreman-installer foreman-proxy foreman-vmware tfm-rubygem-foreman_hooks tfm-rubygem-foreman_hooks-doc git zsh tmux
+sudo yum -y remove --remove-leaves foreman foreman-installer foreman-proxy
 
 echo "############## Removing files/folder's of foreman ##############################################################"
 sudo rm -rf /var/lib/foreman /usr/share/foreman /usr/share/foreman-proxy/logs /etc/foreman /etc/foreman-installer /etc/foreman-proxy
